@@ -1,0 +1,36 @@
+name-template: '$RESOLVED_VERSION'
+tag-template: '$RESOLVED_VERSION'
+template: |
+  ## What’s Changed
+
+  $CHANGES
+
+categories:
+  - title: '🚀 Features'
+    label: 'feature'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'fix'
+      - 'bug-fix'
+      - 'bug'
+  - title: 'Enhancements'
+    labels:
+      - 'enhancement'
+      - 'doc'
+      - 'test'
+
+version-resolver:
+  major:
+    labels:
+    - 'breaking-change'
+    - 'breaking'
+  minor:
+    labels:
+    - 'feature'
+    - 'enhancement'
+  patch:
+    labels:
+    - 'fix'
+    - 'bug'
+    - 'bug-fix'
+  default: patch
