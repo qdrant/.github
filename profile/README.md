@@ -5,7 +5,7 @@
 <p align="center">
     <b>Powering the next generation of AI applications</b> <br>
 with advanced and high-performant vector similarity search technology.<br>
-Qdrant is an enterprise-ready, industrial-scale Vector Database available as open-source, <a href="https://qdrant.to/cloud" TARGET="_blank">cloud</a>, and managed on-premise solution.
+Qdrant is an enterprise-ready, high-performance, massive-scale Vector Database available as open-source, <a href="https://qdrant.to/cloud" TARGET="_blank">cloud</a>, and managed on-premise solution.
 </p>
 <p align="center">
 </p>
